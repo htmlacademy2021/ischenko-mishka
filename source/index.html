@@ -6,10 +6,16 @@
   </head>
   <body class="page">
     <header class="page-header">
-      <h1 class="visually-hidden">Магазин мягких игрушек "Мишка"</h1>
+      <h1 class="visually-hidden">Магазин мягких игрушек «Мишка»</h1>
       <div class="logo">
         <a href="#" class="logo__link">
-          <img class="logo__image" src="#" alt="" width="" height="" />
+          <img
+            class="logo__image"
+            src="http://dummyimage.com/86x35"
+            alt=""
+            width="86"
+            height="35"
+          />
         </a>
       </div>
       <nav class="nav-menu">
@@ -54,14 +60,14 @@
       </section>
       <section class="hot-goods">
         <h2 class="visually-hidden">Горячие предложения</h2>
-        <div class="product-card">
-          <h3 class="product-card__title">Вязаные корзинки</h3>
-          <p class="product-card__label">ТОВАР НЕДЕЛИ</p>
-          <p class="product-card__description">
+        <div class="promo-card">
+          <h3 class="promo-card__title">Вязаные корзинки</h3>
+          <p class="promo-card__label">ТОВАР НЕДЕЛИ</p>
+          <p class="promo-card__description">
             Экологически чистая пряжа, ручная работа. Доступны в шести
             расцветках, и трех размерах.
           </p>
-          <table class="product-card__table">
+          <table class="promo-card__table">
             <tr>
               <td>Цвет:</td>
               <td>«Тиффани»/серый</td>
@@ -75,9 +81,15 @@
               <td>15 см</td>
             </tr>
           </table>
-          <img src="#" alt="" class="product-card__image" width="" height="" />
-          <p class="product-card__price">Цена: 990 руб.</p>
-          <button class="product-card__btn btn">Заказать</button>
+          <img
+            src="http://dummyimage.com/260x315"
+            alt=""
+            class="promo-card__image"
+            width="260"
+            height="315"
+          />
+          <p class="promo-card__price">Цена: <span>990</span> руб.</p>
+          <button class="promo-card__btn btn">Заказать</button>
         </div>
       </section>
       <section class="features">
@@ -205,13 +217,19 @@
         <p class="copyright__title">
           Разработано <span class="visually-hidden">Html Academy</span>
         </p>
-        <img src="#" alt="" class="copyright__logo" width="" height="" />
+        <img
+          src="http://dummyimage.com/27x34"
+          alt=""
+          class="copyright__logo"
+          width="27"
+          height="34"
+        />
       </div>
     </footer>
     <div class="modal add-to-cart">
       <h2 class="add-to-cart__title">Добавить в корзину</h2>
       <p class="add-to-cart__subtitle">Выберите размер:</p>
-      <form class="add-to-cart__form" action="">
+      <form class="add-to-cart__form" action="https://echo.htmlacademy.ru">
         <label class="visually-hidden"
           >S
           <input
@@ -219,7 +237,6 @@
             type="radio"
             name="size"
             value="S"
-            id=""
           />
         </label>
         <label class="visually-hidden"
@@ -229,7 +246,6 @@
             type="radio"
             name="size"
             value="M"
-            id=""
           />
         </label>
         <label class="visually-hidden"
@@ -239,7 +255,6 @@
             type="radio"
             name="size"
             value="L"
-            id=""
           />
         </label>
         <button class="add-to-cart__btn btn" type="submit">Добавить</button>
