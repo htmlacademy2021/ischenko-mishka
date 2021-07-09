@@ -1,0 +1,24 @@
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80px;
+  gap: 25px;
+}
+
+.copyright__title {
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 18px;
+  color: #000000;
+}
+
+.copyright__image {
+  &:hover {
+    filter: brightness(80%);
+  }
+  &:active {
+    filter: brightness(80%);
+    opacity: 30%;
+  }
+}

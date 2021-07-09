@@ -1,0 +1,58 @@
+.category-menu__element {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 103px;
+  padding: 20px 30px;
+  transition: all 0.25s;
+  &:hover {
+    min-height: 109px;
+    & .category-menu__element-icon {
+      transform: scale(1.05);
+    }
+  }
+
+  &--1 {
+    background-color: #63d1bb;
+  }
+  &--1:hover {
+    background-color: #59d5bc;
+  }
+  &--1:active {
+    background-color: #59d5bc;
+  }
+  &--2 {
+    background-color: #56c3b2;
+  }
+  &--2:hover {
+    background-color: #46c1ae;
+  }
+  &--2:active {
+    background-color: #46c1ae;
+  }
+}
+
+.category-menu__element-link {
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 24px;
+  color: white;
+  & p {
+    width: 50%;
+  }
+}
+
+.category-menu__element-icon {
+  width: 60px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all 0.25s;
+  &--1 {
+    background-image: url(../img/interior.svg);
+  }
+  &--2 {
+    background-image: url(../img/toy.svg);
+  }
+}

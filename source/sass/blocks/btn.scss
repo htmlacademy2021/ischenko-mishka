@@ -1,0 +1,20 @@
+.btn {
+  width: 100%;
+  padding: 14px 30px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  text-align: center;
+  color: #444444;
+  border: 2px solid #444444;
+  &:hover,
+  &:focus {
+    background: #444444;
+    color: white;
+  }
+  &:active {
+    color: rgba(#ffffff, 30%);
+  }
+}
