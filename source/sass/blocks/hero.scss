@@ -1,0 +1,22 @@
+.hero {
+  width: 100%;
+  min-height: 177px;
+  padding-top: 75px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #f1f1f1;
+  background-size: cover;
+}
+
+.hero--home-page {
+  background: url(../img/hero-mobile.jpg) no-repeat top;
+  min-height: 284px;
+}
+
+.hero__title {
+  @include titleStyle;
+  font-size: 27px;
+  text-align: center;
+}
